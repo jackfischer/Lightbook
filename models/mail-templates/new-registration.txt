@@ -1,6 +1,6 @@
 Hello #USERNAME#
 
-Thank you for joining our website #WEBSITENAME#
+Thank you for joining #WEBSITENAME#
 
 
 #ACTIVATION-MESSAGE

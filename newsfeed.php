@@ -11,7 +11,7 @@
 You are logged in as: <?php echo $loggedInUser->display_username; ?>
 
 <br>
-wall posts here
+newsfeed here
 
 </body>
 </html>

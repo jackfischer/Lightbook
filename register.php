@@ -32,11 +32,11 @@ if(!empty($_POST))
 		//Perform some validation
 		//Feel free to edit / change as required
 		
-		if(minMaxRange(5,25,$username))
+		if(minMaxRange(1,25,$username))
 		{
 			$errors[] = lang("ACCOUNT_USER_CHAR_LIMIT",array(5,25));
 		}
-		if(minMaxRange(8,50,$password) && minMaxRange(8,50,$confirm_pass))
+		if(minMaxRange(3,50,$password) && minMaxRange(8,50,$confirm_pass))
 		{
 			$errors[] = lang("ACCOUNT_PASS_CHAR_LIMIT",array(8,50));
 		}
@@ -106,7 +106,7 @@ if(!empty($_POST))
                 </p>
                 
                 <p>
-                    <label>Re-type Password:</label>
+                    <label>Confirm Password:</label>
                     <input type="password" name="passwordc" />
                 </p>
                 

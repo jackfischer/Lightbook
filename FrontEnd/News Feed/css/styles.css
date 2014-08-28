@@ -287,11 +287,12 @@ small.text-muted {
 
 .profilepic {
   padding-left: 15px;
+  padding-top: 0px;
 }
 
 .propic {
-    border-radius: 5px;
-    border:2px solid #fff !important;
+    border-radius: 3px;
+    border:1px solid #fff !important;
 }
 
 .name {
@@ -397,4 +398,54 @@ small.text-muted {
 
 .rightcolumn { 
   float: right
+}
+
+.propicnewsfeed {
+    border-radius: 3px;
+    border:1px solid #fff !important;
+    margin-bottom: 10px;
+}
+
+ .subtitlecatnewsfeed {
+  margin-bottom: 8px;
+  margin-left: 20px;
+  padding-right: 0px;
+  padding-top: 0px;
+  font-size: 10pt;
+  color: #333;
+  text-align: left !important;
+  letter-spacing: -1px;
+  padding-left: 3px;
+  width: 60%;
+  border-radius: 3px;
+}
+
+ .subtitlecatnewsfeed:hover {
+  margin-bottom: 8px;
+  margin-left: 20px;
+  padding-right: 0px;
+  padding-top: 0px;
+  font-size: 10pt;
+  color: #333;
+  text-align: left !important;
+  letter-spacing: -1px;
+  padding-left: 3px;
+  background-color: #dddee0;
+  width: 60%;
+  border-radius: 3px;
+}
+
+.titlecatnewsfeed {
+  margin-bottom: 0px;
+  margin-left: 15px;
+  padding-right: 0px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  font-size: 12pt;
+  color: #fff;
+  text-align: left !important;
+}
+
+.newsfeedsidebargroup {
+  padding-bottom: 7px;
 }

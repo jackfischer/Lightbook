@@ -3,6 +3,7 @@ html, body {
    height: 100%;
    font-family:verdana,arial,sans-serif;
    color:#555555;
+   background-color: #e9eaed;
 }
 
 .nav {
@@ -97,6 +98,7 @@ hr {
    background-color:#e9eaed;
    padding-left:0;
    padding-right:0;
+   width:auto;   
 }
 #main .img-circle {
    height:70px;
@@ -206,7 +208,10 @@ h1,h2,h3 {
 }
 
 .col-sm-9.full {
-    width: 100%;
+    width: auto;
+    margin-left: 13%;
+    margin-right: 13%;
+    
 }
 
 .modal-header, .modal-footer {

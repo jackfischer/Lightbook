@@ -147,18 +147,17 @@
                           
 
                           <div class="well"> 
-                                   <form class="form-horizontal" role="form">
+                                   <form class="form-horizontal" role="form" method="POST" action="backstatus.php">
                                     <h4>What's New</h4>
                                      <div class="form-group" style="padding:14px;">
-                                      <textarea class="form-control" placeholder="Update your status"></textarea>
+                                      <input id="content" name="content" class="form-control" placeholder="Update your status"></input>
                                     </div>
-                                    <button class="btn btn-primary pull-right" type="button">Post</button><ul class="list-inline"><li><a href=""><i class="fa fa-upload"></i></a></li><li><a href=""><i class="fa fa-camera"></i></a></li><li><a href=""><i class="fa fa-map-marker"></i></a></li></ul>
+                                    <button class="btn btn-primary pull-right" type="submit">Post</button><ul class="list-inline"><li><a href=""><i class="fa fa-upload"></i></a></li><li><a href=""><i class="fa fa-camera"></i></a></li><li><a href=""><i class="fa fa-map-marker"></i></a></li></ul>
                                   </form>
                               </div>
                            
 <?php
-	include 'backend/profile.php';
-	include 'backend/test.php';
+	include 'backprofile.php';
 ?> 
 
                               <div class="panel panel-default">

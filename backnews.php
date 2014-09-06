@@ -1,16 +1,14 @@
 <?php
+
 require_once('models/config.php');
-require('backend/dbconnect.php');
+require_once('backend/dbconnect.php');
 
-$user_id = $loggedInUser->user_id;
 
-$STH = $DBH->prepare("select s.content, s.timestamp, u.username from (select content, timestamp, user_id from stories where user_id like :user_id) s inner join userpie_users u on s.user_id=u.user_id");
-
-$STH->execute(array(':user_id' => $user_id));
+$STH = $DBH->query("select s.content, s.timestamp, u.username from stories s inner join userpie_users u on s.user_id=u.user_id");
 
 $STH->setFetchMode(PDO::FETCH_ASSOC);
 
-foreach ($STH->fetchAll() as $story) {
+while($story = $STH->fetch()) {
 	echo "<div class=\"panel panel-default\">";
 	echo "<div class=\"panel-heading\">";
 	echo "<img src=\"//placehold.it/150x150\" class=\"img-circle pull-left\">";
@@ -23,9 +21,7 @@ foreach ($STH->fetchAll() as $story) {
 
 
 	echo $story['timestamp'] . "<br>";
-
-
 }
 
-?>
 
+?>

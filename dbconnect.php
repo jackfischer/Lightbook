@@ -1,6 +1,6 @@
 <?php
 
-require('../models/settings.php');
+require('models/settings.php');
 
 try {
 	$DBH = new PDO("mysql:host=localhost;dbname=lightbook", $db_user, $db_pass);

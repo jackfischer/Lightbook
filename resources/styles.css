@@ -104,14 +104,20 @@ hr {
    padding-right:0;
 }
 #main .img-circle {
-   height:70px;
+   height:70px;content
    width:70px;
+}
+
+.center-content !important {
+  margin: 10 auto;
+  /*margin-left: 100px;*/
 }
 
 #sidebar {
   padding-left:0px;
   padding-right: 0px !important;
   background-color: #949494 !important;
+  min-width: 230px;
 }
 
 #sidebar, #sidebar a, #sidebar-footer a {
@@ -143,8 +149,15 @@ hr {
   padding:5px;
   margin-bottom: 0px;
 }
+#main-window {
+  width: 768px;
+}
 #footer {
   margin-bottom:20px;
+}
+
+.col-sm-offset-2 {
+  margin-left: 40px !important;
 }
 
 /* bootstrap overrides */
@@ -258,6 +271,11 @@ small.text-muted {
     top:0;
     width:100%;
     position:relative;
+  }
+
+  #main-window {
+    width: 95%;
+    margin: 0 auto;
   }
 
 }

@@ -69,13 +69,11 @@
                 <!-- /top nav -->
              
 
-
- 
             <!-- sidebar -->
             <div class="column col-sm-2 hidden-xs" id="sidebar">
                 
                 <div class="profilepic">
-                  <img src="http://media.cirrusmedia.com.au/LW_Media_Library/594partner-profile-pic-An.jpg" class="propic" width="200" height="200">
+                  <img src="http://www.binghamton.edu/president/road-map/advancing-learning/images-headshots/william-ziegler.jpg" class="propic" width="200" height="200">
                 </div>
                 <div class="name">Lorem ipsum</div>
                 <div class="companyposition">Chief Financial Officer</div>
@@ -86,13 +84,14 @@
                     <table class="table30">
                         <tr>
                             <td>
-                                 <div class="imgpreview"><img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg"/></div>
+                                 <div class="imgpreview"><img src="http://www.binghamton.edu/president/road-map/advancing-learning/images-headshots/william-ziegler.jpg"/></div>
                             </td>
                             <td>
-                                <div class="imgpreview"><img src="http://justsomething.co/wp-content/uploads/2013/11/33-most-powerful-images-23.jpeg" /></div>
+                                 <div class="imgpreview"><img src="http://www.binghamton.edu/president/road-map/advancing-learning/images-headshots/william-ziegler.jpg"/></div>
+
                             </td>                           
                             <td>
-                                <div class="imgpreview"><img src="http://blogs.reuters.com/fullfocus/files/2013/08/30ImagesJulyRTX1226J.jpg" /></div>
+                                <div class="imgpreview"><img src="http://www.binghamton.edu/president/road-map/advancing-learning/images-headshots/william-ziegler.jpg" /></div>
                             </td>
                           </tr>
                         </table>                        
@@ -103,13 +102,13 @@
                     <table class="table30">
                         <tr>
                             <td>
-                                 <div class="imgpreview"><img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg"/></div>
+                                 <div class="imgpreview"><img src="http://www.binghamton.edu/president/road-map/advancing-learning/images-headshots/william-ziegler.jpg"/></div>
                             </td>
                             <td>
-                                <div class="imgpreview"><img src="http://justsomething.co/wp-content/uploads/2013/11/33-most-powerful-images-23.jpeg" /></div>
+                                <div class="imgpreview"><img src="http://www.binghamton.edu/president/road-map/advancing-learning/images-headshots/william-ziegler.jpg" /></div>
                             </td>                           
                             <td>
-                                <div class="imgpreview"><img src="http://blogs.reuters.com/fullfocus/files/2013/08/30ImagesJulyRTX1226J.jpg" /></div>
+                                <div class="imgpreview"><img src="http://www.binghamton.edu/president/road-map/advancing-learning/images-headshots/william-ziegler.jpg" /></div>
                             </td>
                           </tr>
                         </table>                        
@@ -140,10 +139,10 @@
 
 
 
-
                     <div class="col-sm-offset-2 col-sm-6">
                       
                         <!-- content -->                      
+			<div class="wall">
                         <div class="row">
                           
 
@@ -157,7 +156,11 @@
                                   </form>
                               </div>
                            
-                           
+<?php
+	include 'backend/profile.php';
+	include 'backend/test.php';
+?> 
+
                               <div class="panel panel-default">
                                 <div class="panel-thumbnail"><img src="http://www.bootply.com/assets/example/bg_5.jpg" class="img-responsive"></div>
                                 <div class="panel-heading">
@@ -180,27 +183,8 @@
                                 </div>
                               </div>
                           
-                               <div class="panel panel-default">
-                                <div class="panel-heading">
-                                 <img src="//placehold.it/150x150" class="img-circle pull-left">
-                                 <div class="leftcolumn">Lorem Ipsum</div><div class="rightcolumn"><i class="fa fa-list"></i></div>
-                                </div><br><br>
-                                  <div class="panel-body">
-                                    
-                                    <p>If you're looking for help with Bootstrap code, the <code>twitter-bootstrap</code> tag at <a href="http://stackoverflow.com/questions/tagged/twitter-bootstrap">Stackoverflow</a> is a good place to find answers.</p>
-                                    
-                                    <hr>
-                                    <form>
-                                    <div class="input-group">
-                                      <div class="input-group-btn">
-                                      <button class="btn btn-default"><i class="fa fa-thumbs-up"></i> Like</button><button class="btn btn-default"><i class="fa fa-share-square-o"></i> Repost</button>
-                                      </div>
-                                      <input type="text" class="form-control" placeholder="Add a comment..">
-                                    </div>
-                                    </form>
-                                    
-                                  </div>
-                               </div>
+
+
                           </div>
                        </div><!--/row-->
                                            

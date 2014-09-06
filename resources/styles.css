@@ -139,7 +139,6 @@ hr {
   border-radius:2px;
 }
 #sidebar-footer {
-  position:absolute;
   bottom:5px;
   padding:5px;
   margin-bottom: 0px;
@@ -177,7 +176,10 @@ h1,h2,h3 {
 {
    resize: none;
 }
-  
+
+.wall {
+	margin-top:15px;
+}
 .badge{
    color:#3B5999;
    background-color:#fff;
@@ -292,6 +294,7 @@ small.text-muted {
 
 .profilepic {
   padding-left: 15px;
+  margin-top: 15px;
 }
 
 .propic {
